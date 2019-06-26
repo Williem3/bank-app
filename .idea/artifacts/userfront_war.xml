@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="userfront:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>userfront</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="userfront-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="userfront:war exploded" />
+    </root>
+  </artifact>
+</component>
